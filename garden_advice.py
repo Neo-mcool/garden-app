@@ -13,8 +13,10 @@ if seasonInput == "summer":
     advice += "Water your plants regularly and provide some shade.\n"
 elif seasonInput == "winter":
     advice += "Protect your plants from frost with covers.\n"
-else:
-    advice += "No advice for this season.\n"
+elif seasonInput == "autumn":
+    advice += "Collect and compost fallen leaves (avoid diseased material).\n"
+elif seasonInput == "spring":
+    advice += "Mulch around plants to retain moisture and suppress weeds.\n"
 
 # Determine advice based on the plant type
 if plant_typeInput == "flower":
